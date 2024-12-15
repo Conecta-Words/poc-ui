@@ -1,8 +1,13 @@
-
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  app-document-viewer {
+    flex: 1;
+    border-right: 1px solid #ccc;
+  }
+  
+  app-document-editor {
+    flex: 1;
+  }
